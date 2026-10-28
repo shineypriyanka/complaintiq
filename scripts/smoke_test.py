@@ -8,7 +8,7 @@ from app.config import EMBED_MODEL
 t0 = time.perf_counter()
 reply = chat("Classify this bank complaint in 3 words: "
              "'I was charged twice for the same ATM withdrawal.'")
-print(f"LLM reply: {reply}")
+print(f"LLM reply: {reply.text}")
 print(f"LLM latency: {time.perf_counter() - t0:.2f}s")
 
 # 2. Embeddings + similarity

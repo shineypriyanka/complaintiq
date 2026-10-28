@@ -1,14 +1,29 @@
+import time
+from dataclasses import dataclass
 from groq import Groq
 from app.config import GROQ_API_KEY, LLM_MODEL
 
-client = Groq(api_key=GROQ_API_KEY)
+client = Groq(api_key=GROQ_API_KEY, max_retries=5)
+
+@dataclass
+class LLMResult:
+    text: str
+    latency_s: float
+    prompt_tokens: int
+    completion_tokens: int
 
 def chat(prompt: str, system: str = "You are a helpful assistant.",
-         temperature: float = 0.0) -> str:
+         temperature: float = 0.0, json_mode: bool = False) -> LLMResult:
+    kwargs = {"response_format": {"type": "json_object"}} if json_mode else {}
+    t0 = time.perf_counter()
     resp = client.chat.completions.create(
         model=LLM_MODEL,
         messages=[{"role": "system", "content": system},
                   {"role": "user", "content": prompt}],
         temperature=temperature,
+        **kwargs,
     )
-    return resp.choices[0].message.content
+    u = resp.usage
+    return LLMResult(resp.choices[0].message.content,
+                     time.perf_counter() - t0,
+                     u.prompt_tokens, u.completion_tokens)
