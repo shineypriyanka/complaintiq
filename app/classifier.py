@@ -19,7 +19,7 @@ def build_prompt(complaint: str, examples: list[dict] | None = None) -> str:
     parts = ["Allowed product categories:\n" + "\n".join(f"- {l}" for l in LABELS)]
     if examples:
         shots = "\n\n".join(
-            f"Complaint: {truncate(e['text'], 150)}\nProduct: {e['product']}"
+            f"Complaint: {truncate(e['text'], 100)}\nProduct: {e['product']}"
             for e in examples)
         parts.append("Labeled examples:\n" + shots)
     parts.append(f"Classify this complaint:\n<complaint>\n{truncate(complaint)}\n</complaint>")

@@ -1,7 +1,7 @@
 import time
 from dataclasses import dataclass
 from groq import Groq
-from app.config import GROQ_API_KEY, LLM_MODEL
+from app.config import GROQ_API_KEY, LLM_MODEL, REASONING_EFFORT
 
 client = Groq(api_key=GROQ_API_KEY, max_retries=5)
 
@@ -15,6 +15,8 @@ class LLMResult:
 def chat(prompt: str, system: str = "You are a helpful assistant.",
          temperature: float = 0.0, json_mode: bool = False) -> LLMResult:
     kwargs = {"response_format": {"type": "json_object"}} if json_mode else {}
+    if REASONING_EFFORT:
+        kwargs["reasoning_effort"] = REASONING_EFFORT
     t0 = time.perf_counter()
     resp = client.chat.completions.create(
         model=LLM_MODEL,

@@ -1,0 +1,3 @@
+run,accuracy,macro_f1,f1_95%_CI,invalid_%,p50_lat_s,p95_lat_s,tok_in,tok_out,usd_per_1k
+knn (none),0.7,0.687,0.619-0.741,0.0,0.045,0.058,0.0,0.0,0.0
+zero_shot (openai_gpt-oss-120b),0.73,0.727,0.661-0.783,0.0,0.63,1.201,506.815,78.545,0.123
