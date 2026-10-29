@@ -53,3 +53,18 @@ def classify_rag(complaint: str, k: int = 5) -> dict:
     result = classify(complaint, examples=examples)
     result["retrieved_labels"] = [e["product"] for e in examples]
     return result
+def classify_knn(complaint: str, k: int = 5) -> dict:
+    import time
+    from collections import Counter
+    from app.retriever import retrieve
+    t0 = time.perf_counter()
+    labels = [n["product"] for n in retrieve(truncate(complaint), k=k)]
+    top, votes = Counter(labels).most_common(1)[0]
+    return {
+        "product": top, "raw_product": top, "valid": True,
+        "severity": None, "summary": None,
+        "latency_s": round(time.perf_counter() - t0, 3),
+        "prompt_tokens": 0, "completion_tokens": 0,
+        "retrieved_labels": labels,
+        "knn_confidence": votes / k,   # e.g. 4 of 5 neighbours agree = 0.8
+    }
