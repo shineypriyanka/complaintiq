@@ -56,7 +56,7 @@ def run_classifier(text: str, method: str) -> tuple[dict, str, bool]:
         result = METHODS[method](text)
         if result.get("product"):
             return result, method, False
-    except groq.APIError:
+    except (groq.APIError, RuntimeError):
         pass   # rate limit, outage, bad model name... fall through to kNN
     return classify_knn(text), "knn", method != "knn"
 
@@ -89,6 +89,6 @@ def triage_endpoint(body: ComplaintIn):
         out.sources = [Source(doc=s["doc"], page=s["page"], text=s["text"])
                        for s in d.get("sources", [])]
         out.reply_error = d.get("error")
-    except groq.APIError as e:
+    except (groq.APIError, RuntimeError) as e:
         out.reply_error = f"Reply drafting unavailable ({type(e).__name__})"
     return out

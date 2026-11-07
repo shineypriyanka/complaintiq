@@ -1,12 +1,9 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv()   
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-LLM_MODEL = os.getenv("LLM_MODEL")
+LLM_MODEL = os.getenv("LLM_MODEL", "openai/gpt-oss-120b")
 EMBED_MODEL = os.getenv("EMBED_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
-REASONING_EFFORT = os.getenv("REASONING_EFFORT", "")
-
-if not GROQ_API_KEY or not LLM_MODEL:
-    raise RuntimeError("Set GROQ_API_KEY and LLM_MODEL in .env")
+REASONING_EFFORT = os.getenv("REASONING_EFFORT", "low")

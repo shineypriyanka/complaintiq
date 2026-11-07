@@ -3,7 +3,15 @@ from dataclasses import dataclass
 from groq import Groq
 from app.config import GROQ_API_KEY, LLM_MODEL, REASONING_EFFORT
 
-client = Groq(api_key=GROQ_API_KEY, max_retries=5)
+_client = None
+
+def get_client() -> Groq:
+    global _client
+    if _client is None:
+        if not GROQ_API_KEY:
+            raise RuntimeError("GROQ_API_KEY is not set")
+        _client = Groq(api_key=GROQ_API_KEY, max_retries=5)
+    return _client
 
 @dataclass
 class LLMResult:
@@ -18,7 +26,7 @@ def chat(prompt: str, system: str = "You are a helpful assistant.",
     if REASONING_EFFORT:
         kwargs["reasoning_effort"] = REASONING_EFFORT
     t0 = time.perf_counter()
-    resp = client.chat.completions.create(
+    resp = get_client().chat.completions.create(
         model=LLM_MODEL,
         messages=[{"role": "system", "content": system},
                   {"role": "user", "content": prompt}],
