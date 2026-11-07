@@ -1,8 +1,9 @@
 import os
 import httpx
 import streamlit as st
+from app.config import LLM_MODEL
 
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
+API_URL = os.getenv("API_URL")   # set: call the HTTP API; unset: run in-process
 LOW_CONFIDENCE = 0.6
 
 SAMPLES = {
@@ -25,9 +26,16 @@ SAMPLES = {
 
 st.set_page_config(page_title="ComplaintIQ", page_icon="🏦", layout="wide")
 
-# ---------- API helpers ----------
+# ---------- backend: in-process or HTTP ----------
+@st.cache_resource(show_spinner="Loading the model and building search indexes (first run only)...")
+def load_local_backend() -> dict:
+    from app.indexing import ensure_indexes
+    from app.retriever import embed
+    embed(["warm up"])
+    return ensure_indexes()
+
 @st.cache_data(ttl=60)
-def get_health():
+def get_api_health():
     try:
         r = httpx.get(f"{API_URL}/health", timeout=5)
         r.raise_for_status()
@@ -35,28 +43,38 @@ def get_health():
     except httpx.HTTPError:
         return None
 
-def call_triage(text: str, method: str) -> dict:
-    r = httpx.post(f"{API_URL}/triage", json={"text": text, "method": method},
-                   timeout=120)
-    if r.status_code == 422:
+def backend_status():
+    if API_URL:
+        h = get_api_health()
+        return (h["llm_model"], h["index_sizes"], "API") if h else None
+    return LLM_MODEL, load_local_backend(), "in-process"
+
+def run_triage(text: str, method: str) -> dict:
+    if not 20 <= len(text) <= 10_000:
         raise ValueError("Complaint must be between 20 and 10,000 characters.")
-    r.raise_for_status()
-    return r.json()
+    if API_URL:
+        r = httpx.post(f"{API_URL}/triage", json={"text": text, "method": method},
+                       timeout=120)
+        r.raise_for_status()
+        return r.json()
+    from app.service import triage
+    return triage(text, method)
 
 def load_sample(name: str):
     st.session_state.text = SAMPLES[name]
 
 # ---------- sidebar ----------
+status = backend_status()
 with st.sidebar:
     st.header("Settings")
     method = st.selectbox(
         "Classification method", ["rag", "zero_shot", "knn"],
         help="RAG: best accuracy (0.786 macro-F1). kNN: instant, no LLM.")
-    health = get_health()
-    if health:
-        st.success(f"API online · {health['llm_model']}")
-        st.caption(f"Indexed: {health['index_sizes']['complaints']:,} complaints, "
-                   f"{health['index_sizes']['policies']} policy chunks")
+    if status:
+        model, sizes, mode = status
+        st.success(f"Online · {model}")
+        st.caption(f"Mode: {mode} · Indexed: {sizes['complaints']:,} complaints, "
+                   f"{sizes['policies']} policy chunks")
     else:
         st.error(f"API offline at {API_URL}")
     st.header("Try a sample")
@@ -74,12 +92,12 @@ st.text_area("Customer complaint", key="text", height=160,
              placeholder="Paste a customer complaint here...")
 
 if st.button("Analyze complaint", type="primary"):
-    if not health:
-        st.error("The API is offline. Start it with: python -m uvicorn app.api:app")
+    if not status:
+        st.error("Backend unavailable.")
         st.stop()
     try:
         with st.spinner("Classifying and drafting a reply..."):
-            res = call_triage(st.session_state.text, method)
+            res = run_triage(st.session_state.text, method)
     except ValueError as e:
         st.warning(str(e))
         st.stop()
@@ -87,7 +105,6 @@ if st.button("Analyze complaint", type="primary"):
         st.error(f"API request failed: {type(e).__name__}")
         st.stop()
 
-    # --- classification ---
     st.markdown(f"#### Category: {res['product']}")
     c1, c2, c3 = st.columns(3)
     c1.metric("Severity", (res.get("severity") or "n/a").title())
@@ -104,17 +121,16 @@ if st.button("Analyze complaint", type="primary"):
     if res.get("summary"):
         st.info(f"**Summary:** {res['summary']}")
     if res.get("redactions"):
-        masked = ", ".join(f"{n} {tag.strip('[]').lower()}" for tag, n in res["redactions"].items())
+        masked = ", ".join(f"{n} {tag.strip('[]').lower()}"
+                           for tag, n in res["redactions"].items())
         st.caption(f"🔒 Masked before AI processing: {masked}")
 
-    # --- reply ---
     st.subheader("Drafted reply")
     if res.get("reply"):
         st.text_area("Review and edit before sending", value=res["reply"], height=260)
     else:
         st.error(res.get("reply_error") or "No reply could be drafted.")
 
-    # --- sources ---
     if res.get("sources"):
         st.subheader("RBI sources")
         used = set(res.get("citations_used", []))

@@ -1,0 +1,200 @@
+{"complaint_id": "21460445", "true": "Checking or savings account", "pred": "Checking or savings account", "valid": true, "latency_s": 0.04, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20960296", "true": "Checking or savings account", "pred": "Checking or savings account", "valid": true, "latency_s": 0.046, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21864948", "true": "Checking or savings account", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.022, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21421889", "true": "Checking or savings account", "pred": "Checking or savings account", "valid": true, "latency_s": 0.042, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "23228398", "true": "Checking or savings account", "pred": "Checking or savings account", "valid": true, "latency_s": 0.043, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22985313", "true": "Checking or savings account", "pred": "Credit card", "valid": true, "latency_s": 0.043, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19527760", "true": "Checking or savings account", "pred": "Credit card", "valid": true, "latency_s": 0.031, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19930817", "true": "Checking or savings account", "pred": "Checking or savings account", "valid": true, "latency_s": 0.033, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22690412", "true": "Checking or savings account", "pred": "Checking or savings account", "valid": true, "latency_s": 0.043, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20549156", "true": "Checking or savings account", "pred": "Checking or savings account", "valid": true, "latency_s": 0.033, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20023651", "true": "Checking or savings account", "pred": "Checking or savings account", "valid": true, "latency_s": 0.042, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22618012", "true": "Checking or savings account", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.042, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21410826", "true": "Checking or savings account", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.025, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21835971", "true": "Checking or savings account", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.045, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21933051", "true": "Checking or savings account", "pred": "Checking or savings account", "valid": true, "latency_s": 0.042, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21897260", "true": "Checking or savings account", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.026, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "18621721", "true": "Checking or savings account", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.035, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21928180", "true": "Checking or savings account", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.053, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22985846", "true": "Checking or savings account", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.049, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20319681", "true": "Checking or savings account", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.05, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21547596", "true": "Credit card", "pred": "Credit card", "valid": true, "latency_s": 0.027, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "23229228", "true": "Credit card", "pred": "Credit card", "valid": true, "latency_s": 0.05, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22345475", "true": "Credit card", "pred": "Credit card", "valid": true, "latency_s": 0.051, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21839613", "true": "Credit card", "pred": "Credit card", "valid": true, "latency_s": 0.05, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21086077", "true": "Credit card", "pred": "Credit card", "valid": true, "latency_s": 0.047, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21523438", "true": "Credit card", "pred": "Credit card", "valid": true, "latency_s": 0.052, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21856573", "true": "Credit card", "pred": "Credit card", "valid": true, "latency_s": 0.054, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21882285", "true": "Credit card", "pred": "Credit card", "valid": true, "latency_s": 0.047, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21920751", "true": "Credit card", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.039, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "23169695", "true": "Credit card", "pred": "Credit card", "valid": true, "latency_s": 0.04, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21893553", "true": "Credit card", "pred": "Credit card", "valid": true, "latency_s": 0.035, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19542858", "true": "Credit card", "pred": "Credit card", "valid": true, "latency_s": 0.051, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19883115", "true": "Credit card", "pred": "Credit card", "valid": true, "latency_s": 0.036, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21878410", "true": "Credit card", "pred": "Mortgage", "valid": true, "latency_s": 0.026, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21752553", "true": "Credit card", "pred": "Credit card", "valid": true, "latency_s": 0.052, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22976745", "true": "Credit card", "pred": "Credit card", "valid": true, "latency_s": 0.054, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21537076", "true": "Credit card", "pred": "Student loan", "valid": true, "latency_s": 0.049, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20048517", "true": "Credit card", "pred": "Credit card", "valid": true, "latency_s": 0.057, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21632277", "true": "Credit card", "pred": "Checking or savings account", "valid": true, "latency_s": 0.058, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20770486", "true": "Credit card", "pred": "Credit card", "valid": true, "latency_s": 0.065, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19998993", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.026, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "17837914", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.054, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20081090", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.032, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21850951", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.053, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21699499", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.053, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21688072", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.024, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21719311", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.085, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22580201", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.035, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20168577", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.033, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21837777", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.023, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "23164072", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.036, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22653804", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.035, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21897179", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.024, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19964581", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.041, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "17887097", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.052, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21248070", "true": "Credit reporting or other personal consumer reports", "pred": "Debt collection", "valid": true, "latency_s": 0.038, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22641930", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.058, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22583904", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.032, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20000148", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.031, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "13327598", "true": "Credit reporting or other personal consumer reports", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.025, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "23105142", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.057, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21940443", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.053, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22447174", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.053, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21391028", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.041, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20375008", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.057, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21417749", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.056, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21422076", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.056, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20268373", "true": "Debt collection", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.037, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21872654", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.049, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22189768", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.04, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21848536", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.052, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21687061", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.055, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21712894", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.052, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20551314", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.048, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21891825", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.056, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21858021", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.043, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19527464", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.035, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19975690", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.045, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20060278", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.04, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19932911", "true": "Debt collection", "pred": "Debt collection", "valid": true, "latency_s": 0.029, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20513870", "true": "Money transfer, virtual currency, or money service", "pred": "Checking or savings account", "valid": true, "latency_s": 0.046, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20702884", "true": "Money transfer, virtual currency, or money service", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.056, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20490759", "true": "Money transfer, virtual currency, or money service", "pred": "Checking or savings account", "valid": true, "latency_s": 0.048, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20168264", "true": "Money transfer, virtual currency, or money service", "pred": "Checking or savings account", "valid": true, "latency_s": 0.049, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22820171", "true": "Money transfer, virtual currency, or money service", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.05, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21768244", "true": "Money transfer, virtual currency, or money service", "pred": "Checking or savings account", "valid": true, "latency_s": 0.049, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21899893", "true": "Money transfer, virtual currency, or money service", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.057, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "23100384", "true": "Money transfer, virtual currency, or money service", "pred": "Credit card", "valid": true, "latency_s": 0.054, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20024406", "true": "Money transfer, virtual currency, or money service", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.051, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21447902", "true": "Money transfer, virtual currency, or money service", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.055, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21836767", "true": "Money transfer, virtual currency, or money service", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.052, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21891298", "true": "Money transfer, virtual currency, or money service", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.041, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20892446", "true": "Money transfer, virtual currency, or money service", "pred": "Mortgage", "valid": true, "latency_s": 0.032, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21838353", "true": "Money transfer, virtual currency, or money service", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.026, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21464667", "true": "Money transfer, virtual currency, or money service", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.041, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20489365", "true": "Money transfer, virtual currency, or money service", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.037, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20067978", "true": "Money transfer, virtual currency, or money service", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.039, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21701347", "true": "Money transfer, virtual currency, or money service", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.068, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21178451", "true": "Money transfer, virtual currency, or money service", "pred": "Credit card", "valid": true, "latency_s": 0.04, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21178371", "true": "Money transfer, virtual currency, or money service", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.048, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21134460", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.059, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21731609", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.058, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21773538", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.054, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21452774", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.055, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19934329", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.046, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21444208", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.053, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "23116698", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.05, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20150617", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.069, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22079362", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.074, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22627565", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.046, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "17924772", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.056, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21854697", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.054, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "17802518", "true": "Mortgage", "pred": "Credit card", "valid": true, "latency_s": 0.05, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21788820", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.051, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20502905", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.052, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21788222", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.054, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "23108802", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.056, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22061009", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.033, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20025441", "true": "Mortgage", "pred": "Checking or savings account", "valid": true, "latency_s": 0.052, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21645673", "true": "Mortgage", "pred": "Mortgage", "valid": true, "latency_s": 0.052, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "17977481", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Payday loan, title loan, personal loan, or advance loan", "valid": true, "latency_s": 0.043, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20915877", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Student loan", "valid": true, "latency_s": 0.035, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19999817", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Payday loan, title loan, personal loan, or advance loan", "valid": true, "latency_s": 0.045, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "23115788", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Payday loan, title loan, personal loan, or advance loan", "valid": true, "latency_s": 0.044, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "23215844", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Payday loan, title loan, personal loan, or advance loan", "valid": true, "latency_s": 0.028, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19531558", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Payday loan, title loan, personal loan, or advance loan", "valid": true, "latency_s": 0.048, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19637838", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Payday loan, title loan, personal loan, or advance loan", "valid": true, "latency_s": 0.035, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21902024", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Payday loan, title loan, personal loan, or advance loan", "valid": true, "latency_s": 0.053, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "18143112", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Payday loan, title loan, personal loan, or advance loan", "valid": true, "latency_s": 0.04, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19542312", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Mortgage", "valid": true, "latency_s": 0.053, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21940556", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Credit card", "valid": true, "latency_s": 0.044, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19542742", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Debt collection", "valid": true, "latency_s": 0.041, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19540867", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Payday loan, title loan, personal loan, or advance loan", "valid": true, "latency_s": 0.053, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21936958", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Mortgage", "valid": true, "latency_s": 0.04, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "23167621", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.026, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21681067", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Student loan", "valid": true, "latency_s": 0.049, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20773089", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Payday loan, title loan, personal loan, or advance loan", "valid": true, "latency_s": 0.043, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21264430", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.044, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21633474", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Payday loan, title loan, personal loan, or advance loan", "valid": true, "latency_s": 0.039, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20295752", "true": "Payday loan, title loan, personal loan, or advance loan", "pred": "Credit card", "valid": true, "latency_s": 0.045, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "23006283", "true": "Prepaid card", "pred": "Checking or savings account", "valid": true, "latency_s": 0.036, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21833849", "true": "Prepaid card", "pred": "Credit card", "valid": true, "latency_s": 0.026, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21284251", "true": "Prepaid card", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.032, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21713243", "true": "Prepaid card", "pred": "Checking or savings account", "valid": true, "latency_s": 0.04, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21836019", "true": "Prepaid card", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.045, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19543906", "true": "Prepaid card", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.019, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19969257", "true": "Prepaid card", "pred": "Prepaid card", "valid": true, "latency_s": 0.04, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19936228", "true": "Prepaid card", "pred": "Checking or savings account", "valid": true, "latency_s": 0.034, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19931905", "true": "Prepaid card", "pred": "Credit card", "valid": true, "latency_s": 0.049, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22443666", "true": "Prepaid card", "pred": "Checking or savings account", "valid": true, "latency_s": 0.038, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21513048", "true": "Prepaid card", "pred": "Credit card", "valid": true, "latency_s": 0.053, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21946115", "true": "Prepaid card", "pred": "Credit card", "valid": true, "latency_s": 0.052, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20070346", "true": "Prepaid card", "pred": "Prepaid card", "valid": true, "latency_s": 0.034, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21531224", "true": "Prepaid card", "pred": "Checking or savings account", "valid": true, "latency_s": 0.04, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21844905", "true": "Prepaid card", "pred": "Checking or savings account", "valid": true, "latency_s": 0.028, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22685698", "true": "Prepaid card", "pred": "Debt collection", "valid": true, "latency_s": 0.054, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21937590", "true": "Prepaid card", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.033, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21836957", "true": "Prepaid card", "pred": "Prepaid card", "valid": true, "latency_s": 0.039, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19531266", "true": "Prepaid card", "pred": "Prepaid card", "valid": true, "latency_s": 0.039, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21618003", "true": "Prepaid card", "pred": "Money transfer, virtual currency, or money service", "valid": true, "latency_s": 0.034, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21831365", "true": "Student loan", "pred": "Student loan", "valid": true, "latency_s": 0.025, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21942452", "true": "Student loan", "pred": "Student loan", "valid": true, "latency_s": 0.041, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "7952894", "true": "Student loan", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.051, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21769194", "true": "Student loan", "pred": "Student loan", "valid": true, "latency_s": 0.042, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21756867", "true": "Student loan", "pred": "Student loan", "valid": true, "latency_s": 0.043, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21855897", "true": "Student loan", "pred": "Student loan", "valid": true, "latency_s": 0.057, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21791112", "true": "Student loan", "pred": "Student loan", "valid": true, "latency_s": 0.058, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "13468270", "true": "Student loan", "pred": "Student loan", "valid": true, "latency_s": 0.055, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "18272865", "true": "Student loan", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.056, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21935820", "true": "Student loan", "pred": "Student loan", "valid": true, "latency_s": 0.055, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20770120", "true": "Student loan", "pred": "Checking or savings account", "valid": true, "latency_s": 0.026, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22212980", "true": "Student loan", "pred": "Mortgage", "valid": true, "latency_s": 0.051, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21570319", "true": "Student loan", "pred": "Student loan", "valid": true, "latency_s": 0.038, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21671435", "true": "Student loan", "pred": "Student loan", "valid": true, "latency_s": 0.036, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21899837", "true": "Student loan", "pred": "Student loan", "valid": true, "latency_s": 0.053, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "12859046", "true": "Student loan", "pred": "Student loan", "valid": true, "latency_s": 0.054, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "18831089", "true": "Student loan", "pred": "Credit reporting or other personal consumer reports", "valid": true, "latency_s": 0.051, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21898477", "true": "Student loan", "pred": "Student loan", "valid": true, "latency_s": 0.031, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19534349", "true": "Student loan", "pred": "Student loan", "valid": true, "latency_s": 0.034, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20822097", "true": "Student loan", "pred": "Student loan", "valid": true, "latency_s": 0.055, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20903663", "true": "Vehicle loan or lease", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.044, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20693431", "true": "Vehicle loan or lease", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.045, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "17900725", "true": "Vehicle loan or lease", "pred": "Checking or savings account", "valid": true, "latency_s": 0.042, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "23201907", "true": "Vehicle loan or lease", "pred": "Checking or savings account", "valid": true, "latency_s": 0.048, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21870600", "true": "Vehicle loan or lease", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.045, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "23117689", "true": "Vehicle loan or lease", "pred": "Mortgage", "valid": true, "latency_s": 0.052, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21482289", "true": "Vehicle loan or lease", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.045, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21950467", "true": "Vehicle loan or lease", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.051, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21422058", "true": "Vehicle loan or lease", "pred": "Debt collection", "valid": true, "latency_s": 0.032, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20811369", "true": "Vehicle loan or lease", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.032, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21838799", "true": "Vehicle loan or lease", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.055, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "23027435", "true": "Vehicle loan or lease", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.035, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19098899", "true": "Vehicle loan or lease", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.038, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21259654", "true": "Vehicle loan or lease", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.03, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "19537631", "true": "Vehicle loan or lease", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.034, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "22111674", "true": "Vehicle loan or lease", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.05, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21704298", "true": "Vehicle loan or lease", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.019, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21838827", "true": "Vehicle loan or lease", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.072, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "21841203", "true": "Vehicle loan or lease", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.055, "prompt_tokens": 0, "completion_tokens": 0, "error": null}
+{"complaint_id": "20745633", "true": "Vehicle loan or lease", "pred": "Vehicle loan or lease", "valid": true, "latency_s": 0.033, "prompt_tokens": 0, "completion_tokens": 0, "error": null}

@@ -18,5 +18,5 @@ for _ in range(60):
 EOF
 
 # Start the public UI on the port Hugging Face expects
-exec python -m streamlit run ui/streamlit_app.py \
+API_URL=http://127.0.0.1:8000 exec python -m streamlit run streamlit_app.py \
   --server.port 7860 --server.address 0.0.0.0 --server.headless true

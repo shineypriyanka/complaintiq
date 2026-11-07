@@ -10,8 +10,7 @@ WORKDIR /home/user/app
 
 # 1) Dependencies first (cached unless requirements.txt changes)
 COPY --chown=user requirements.txt .
-RUN pip install --no-cache-dir torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu \
- && pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # 2) App code, then build both vector indexes inside the image
 COPY --chown=user . .

@@ -1,21 +1,25 @@
+from pathlib import Path
+import numpy as np
 import chromadb
-from sentence_transformers import SentenceTransformer
-from app.config import EMBED_MODEL
+from chromadb.utils.embedding_functions import DefaultEmbeddingFunction
 
-DB_DIR = "data/chroma"
+ROOT = Path(__file__).resolve().parent.parent   # project root, wherever it runs
+DB_DIR = str(ROOT / "data" / "chroma")
 COMPLAINTS = "complaints_train"
 POLICIES = "rbi_policies"
-_model = None
+_ef = None
 
 def get_model():
-    global _model
-    if _model is None:
-        _model = SentenceTransformer(EMBED_MODEL)
-    return _model
+    global _ef
+    if _ef is None:
+        # all-MiniLM-L6-v2 served through ONNX Runtime: same model, no PyTorch
+        _ef = DefaultEmbeddingFunction()
+    return _ef
 
 def embed(texts: list[str]) -> list[list[float]]:
-    return get_model().encode(texts, normalize_embeddings=True, batch_size=64,
-                              show_progress_bar=len(texts) > 100).tolist()
+    vecs = np.array(get_model()(texts), dtype=np.float32)
+    vecs /= np.linalg.norm(vecs, axis=1, keepdims=True)   # unit length
+    return vecs.tolist()
 
 def get_client():
     return chromadb.PersistentClient(path=DB_DIR)
