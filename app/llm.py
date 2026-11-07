@@ -21,13 +21,15 @@ class LLMResult:
     completion_tokens: int
 
 def chat(prompt: str, system: str = "You are a helpful assistant.",
-         temperature: float = 0.0, json_mode: bool = False) -> LLMResult:
+         temperature: float = 0.0, json_mode: bool = False,
+         model: str | None = None, reasoning_effort: str | None = None) -> LLMResult:
     kwargs = {"response_format": {"type": "json_object"}} if json_mode else {}
-    if REASONING_EFFORT:
-        kwargs["reasoning_effort"] = REASONING_EFFORT
+    effort = reasoning_effort or REASONING_EFFORT
+    if effort:
+        kwargs["reasoning_effort"] = effort
     t0 = time.perf_counter()
     resp = get_client().chat.completions.create(
-        model=LLM_MODEL,
+        model=model or LLM_MODEL,
         messages=[{"role": "system", "content": system},
                   {"role": "user", "content": prompt}],
         temperature=temperature,
